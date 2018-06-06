@@ -2,7 +2,7 @@
 
 ### A functioning democracy requires an engaged citizenry.
 
-Our stakeholder, [Demand Progress](https://demandprogress.org/) is focused on Internet Freedom, Open Government, and Financial Reform. It works on a bipartisan basis to make information about Congress available to the public through the Congressional Data COalition. In order for civil society to hold government accountable they must keep track of shifting legislative schedules and content.
+Our stakeholder, [Demand Progress](https://demandprogress.org/) is focused on Internet Freedom, Open Government, and Financial Reform. It works on a bipartisan basis to make information about Congress available to the public through the Congressional Data Coalition. In order for civil society to hold government accountable they must keep track of shifting legislative schedules and content.
 
 It is difficult to follow when Congress has scheduled a committee/subcommittee hearing/meeting without a paid subscription to a news service that gathers this info.
 
