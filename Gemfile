@@ -38,6 +38,7 @@ gem 'webpacker'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
+gem 'decent_exposure'
 # Committee/subcommittee relationship
 gem 'ancestry'
 
@@ -46,6 +47,7 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'rspec-rails'
   gem 'cypress-on-rails'
+  gem 'factory_bot_rails'
 end
 
 group :development do
