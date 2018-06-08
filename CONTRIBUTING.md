@@ -20,6 +20,7 @@ on an [open issue]–if the relevant issue doesn't exist, open it!
    yourself (core team member) or commenting. If the issue doesn't exist
    yet, open it.
 1. Fork the repo.
+1. Make sure you have yarn installed (e.g. `brew install yarn`).
 1. Run `./bin/setup`.
 1. Run the tests. We only take pull requests with passing tests, and it's great
    to know that you have a clean slate: `./bin/rake`
