@@ -1,0 +1,11 @@
+{
+  "name": "demand-progress",
+  "private": true,
+  "dependencies": {
+    "@rails/webpacker": "^3.5.3",
+    "babel-preset-react": "^6.24.1",
+    "prop-types": "^15.6.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  }
+}
