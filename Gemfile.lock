@@ -44,6 +44,8 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
+    ancestry (3.0.2)
+      activerecord (>= 3.2.0)
     archive-zip (0.11.0)
       io-like (~> 0.3.0)
     arel (9.0.0)
@@ -120,7 +122,7 @@ GEM
     public_suffix (3.0.2)
     puma (3.11.4)
     rack (2.0.5)
-    rack-proxy (0.6.3)
+    rack-proxy (0.6.4)
       rack
     rack-test (1.0.0)
       rack (>= 1.0, < 3)
@@ -214,7 +216,7 @@ GEM
       activemodel (>= 5.0)
       bindex (>= 0.4.0)
       railties (>= 5.0)
-    webpacker (3.2.1)
+    webpacker (3.5.3)
       activesupport (>= 4.2)
       rack-proxy (>= 0.6.1)
       railties (>= 4.2)
@@ -228,6 +230,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  ancestry
   bootsnap (>= 1.1.0)
   byebug
   capybara (>= 2.15, < 4.0)

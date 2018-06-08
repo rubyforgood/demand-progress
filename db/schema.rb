@@ -12,6 +12,7 @@
 
 ActiveRecord::Schema.define(version: 2018_06_08_182158) do
 
+
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -21,6 +22,8 @@ ActiveRecord::Schema.define(version: 2018_06_08_182158) do
     t.string "website"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "ancestry"
+    t.index ["ancestry"], name: "index_committees_on_ancestry"
   end
 
   create_table "events", force: :cascade do |t|
