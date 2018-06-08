@@ -1,0 +1,32 @@
+<p id="notice"><%= notice %></p>
+<%= javascript_pack_tag ‘hello_react’ %>
+<h1>Committees</h1>
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Code</th>
+      <th>Website</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @committees.each do |committee| %>
+      <tr>
+        <td><%= committee.name %></td>
+        <td><%= committee.code %></td>
+        <td><%= committee.website %></td>
+        <td><%= link_to 'Show', committee %></td>
+        <td><%= link_to 'Edit', edit_committee_path(committee) %></td>
+        <td><%= link_to 'Destroy', committee, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Committee', new_committee_path %>
