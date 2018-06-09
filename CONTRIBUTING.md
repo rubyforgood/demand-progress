@@ -19,7 +19,10 @@ relevant issue doesn't exist, open it!
    doesn't exist yet, open it.
 1. Fork the repo.
 1. Make sure you have yarn installed (e.g. `brew install yarn`).
-1. Run `./bin/setup`. Optionally, run `rake db:populate` to add some sample data
+1. Run `./bin/setup`.
+1. Run `./bin/rake committees:house:load` and `./bin/rake committees:senate:load`
+   to load the House and Senate committee & sub committee relationships.
+1. Optionally, run `./bin/rake db:populate` to add some sample data
    to your database.
 1. Run the tests. We only take pull requests with passing tests, and it's great
    to know that you have a clean slate: `./bin/rake`
