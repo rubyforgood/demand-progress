@@ -4,10 +4,13 @@
   "dependencies": {
     "@rails/webpacker": "^3.5.3",
     "babel-preset-react": "^6.24.1",
+    "cypress": "^3.0.1",
+    "moment": "^2.22.2",
+    "moment-timezone": "^0.5.17",
     "prop-types": "^15.6.1",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
-    "cypress": "^3.0.1"
+    "react-moment": "^0.7.0"
   },
   "scripts": {
     "cypress:open": "cypress open"
