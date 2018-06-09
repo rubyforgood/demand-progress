@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import PropTypes from 'prop-types'
-import DailyAgenda from './AgendaList/DailyAgenda'
+import DailyAgenda from './AgendaList/daily_agenda'
 
 Agenda.propTypes = {
   events: PropTypes.string
@@ -13,21 +13,19 @@ Agenda.propTypes = {
 //   )
 // }
 export default function Agenda({events}){
-  // let agendaEvents = events.map( (event) => {return <EventListing topic={event.topic}/>})
   let agendaHash = JSON.parse(events)
   //let agendaEvents = agendaHash.map( (event) => {return (makeEvent(event))})
   // let eventTopic = agendaEvents.first.topic
 
   return (
-    <div className="agenda-list">
-      <AgendaList />
+    <div className="daily-agenda">
+      <DailyAgenda />
     </div>
   )
 }
 document.addEventListener('DOMContentLoaded', () => {
   const node = document.getElementById('agenda-events')
   const data = node.getAttribute('data')
-  //let agendaEvents = data.map( (event) => {return <EventListing topic={event.topic}/>})
   ReactDOM.render(
     <Agenda events={data}/>,
     document.body.appendChild(document.createElement('div')),

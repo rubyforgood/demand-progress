@@ -1,30 +1,38 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import EventListing from 'event_listing'
+import Event from './event'
+
+export function foo(events){
+  return events.map( (event) => {return <Event event={event} key={event.id} />})
+}
 
 export default function DailyAgenda({agenda_date, events}){
+  let returnedEvents = foo(events);
   return(
     <div className="daily-agenda-section">
-      
+      <div>{agenda_date}</div>
+      <div>{returnedEvents}</div>
     </div>
   )
 }
 
 DailyAgenda.propTypes = {
   agenda_date: PropTypes.string,
-  events: PropTypes.arrayOf({
+  events: PropTypes.arrayOf(PropTypes.shape({
+    id: PropTypes.number,
     topic: PropTypes.string,
     occurs_at: PropTypes.string,
     location: PropTypes.string,
     committee_name: PropTypes.string,
     subcommittee_name: PropTypes.string
-  })
+  }))
 }
 
 DailyAgenda.defaultProps = {
   agenda_date: '2018-06-09',
   events: [
     {
+      id: 5,
       topic: 'topic',
       occurs_at: '2018-06-09 09:12:23',
       location: 'MZ 231',
@@ -32,6 +40,7 @@ DailyAgenda.defaultProps = {
       subcommittee_name: 'subcommittee name'
     },
     {
+      id: 6,
       topic: 'topic',
       occurs_at: '2018-06-09 09:12:23',
       location: 'MZ 231',
