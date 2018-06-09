@@ -1,11 +1,13 @@
-require 'rails_helper'
+# frozen_string_literal: true
+
+require "rails_helper"
 
 RSpec.describe "committees/edit", type: :view do
   before(:each) do
     @committee = assign(:committee, Committee.create!(
-      :name => "MyString",
-      :code => "MyString",
-      :website => "MyString"
+                                      name: "MyString",
+                                      code: "MyString",
+                                      website: "MyString"
     ))
   end
 

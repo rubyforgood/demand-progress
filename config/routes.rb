@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 Rails.application.routes.draw do
-  get 'events/index'
+  get "events/index"
   resources :committees
   resources :events
   root to: "events#index"
