@@ -8,7 +8,6 @@ Agenda.propTypes = {
 }
 
 export function makeEvent(event){
-  console.log(event)
   return (
     <EventListing id={event.id} key={event.id} event={event}/>
   )
