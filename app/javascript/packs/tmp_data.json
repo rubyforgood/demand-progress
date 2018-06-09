@@ -1,0 +1,19 @@
+[
+  {
+    "agenda_date": "2018-06-17" ,
+    "events":[
+      {
+        "id": 7,
+        "topic": "topic name",
+        "location": "MVC 1337",
+        "occurs_at": "2018-07-01 08:00:00",
+        "committee_info": [
+          {
+            "committe_name": "committee name",
+            "subcommittee_name": "subcommittee name"
+          }
+        ]
+    }
+  ]
+  }
+]
