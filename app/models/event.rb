@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 class Event < ApplicationRecord
   def self.this_week_forward
-    where('occurs_at >= ?', Time.current.beginning_of_week)
+    where("occurs_at >= ?", Time.current.beginning_of_week)
   end
 end
