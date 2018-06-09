@@ -4,6 +4,10 @@ FactoryBot.define do
       occurs_at { Time.current.last_week }
     end
 
+    trait :this_week do
+      occurs_at { Time.current }
+    end
+
     trait :next_week do
       occurs_at { Time.current.next_week }
     end

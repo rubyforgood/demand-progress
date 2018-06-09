@@ -12,6 +12,15 @@ RSpec.describe EventsController, type: :controller do
       expect(@controller.view_context.send(:events)).to include *events
       expect(@controller.view_context.send(:events)).to_not include old_event
     end
+
+    it "orders the events oldest to newest" do
+      newer_event = create :event, :next_week
+      older_event = create :event, :this_week
+
+      get :index
+
+      expect(@controller.view_context.send(:events).first).to eq older_event
+    end
   end
 
 end
