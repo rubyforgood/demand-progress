@@ -50,9 +50,11 @@ GEM
       io-like (~> 0.3.0)
     arel (9.0.0)
     ast (2.4.0)
-    autoprefixer-rails (8.6.1)
+    autoprefixer-rails (8.6.2)
       execjs
     bindex (0.5.0)
+    binding_of_caller (0.8.0)
+      debug_inspector (>= 0.0.1)
     bootsnap (1.3.0)
       msgpack (~> 1.0)
     bootstrap (4.1.1)
@@ -73,6 +75,7 @@ GEM
     chromedriver-helper (1.2.0)
       archive-zip (~> 0.10)
       nokogiri (~> 1.8)
+    coderay (1.1.2)
     coffee-rails (4.2.2)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0)
@@ -82,7 +85,8 @@ GEM
     coffee-script-source (1.12.2)
     concurrent-ruby (1.0.5)
     crass (1.0.4)
-    database_cleaner (1.5.3)
+    database_cleaner (1.7.0)
+    debug_inspector (0.0.3)
     decent_exposure (3.0.2)
       activesupport (>= 4.0)
     diff-lcs (1.3)
@@ -96,6 +100,8 @@ GEM
     ffi (1.9.25)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
+    httparty (0.16.2)
+      multi_xml (>= 0.5.2)
     i18n (1.0.1)
       concurrent-ruby (~> 1.0)
     io-like (0.3.0)
@@ -124,15 +130,22 @@ GEM
     minitest (5.11.3)
     msgpack (1.2.4)
     multi_json (1.13.1)
+    multi_xml (0.6.0)
     nio4r (2.3.1)
     nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
+    oj (3.6.2)
     parallel (1.12.1)
     parser (2.5.1.0)
       ast (~> 2.4.0)
     pg (1.0.0)
     popper_js (1.12.9)
     powerpack (0.1.1)
+    pry (0.11.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
+    pry-rails (0.3.6)
+      pry (>= 0.10.4)
     public_suffix (3.0.2)
     puma (3.11.4)
     rack (2.0.5)
@@ -258,6 +271,7 @@ PLATFORMS
 
 DEPENDENCIES
   ancestry
+  binding_of_caller
   bootsnap (>= 1.1.0)
   bootstrap
   byebug
@@ -267,10 +281,13 @@ DEPENDENCIES
   database_cleaner
   decent_exposure
   factory_bot_rails
+  httparty
   jbuilder (~> 2.5)
   jquery-rails
   listen (>= 3.0.5, < 3.2)
+  oj
   pg (>= 0.18, < 2.0)
+  pry-rails
   puma (~> 3.11)
   rails (~> 5.2.0)
   rspec-rails
