@@ -30,7 +30,7 @@ class CommitteeLoader
     committees = Oj.load(committee_response)["results"][0]["committees"]
 
     committees.each do |committee|
-      new_committee = Committee.create!(name: committee["name"], code: committee["code"], website: committee["url"], parent: parent)
+      new_committee = Committee.create!(name: committee["name"], code: committee["id"], website: committee["url"], parent: parent)
 
       committee["subcommittees"].each do |sub|
 
