@@ -25,10 +25,10 @@ require "rails_helper"
 # removed from Rails core in Rails 5, but can be added back in via the
 # `rails-controller-testing` gem.
 
-RSpec.describe CommitteesController, type: :controller do
+RSpec.describe OrganizationsController, type: :controller do
 
   # This should return the minimal set of attributes required to create a valid
-  # Committee. As you add validations to Committee, be sure to
+  # Organization. As you add validations to Organization, be sure to
   # adjust the attributes here as well.
   let(:valid_attributes) {
     skip("Add a hash of attributes valid for your model")
@@ -40,12 +40,12 @@ RSpec.describe CommitteesController, type: :controller do
 
   # This should return the minimal set of values that should be in the session
   # in order to pass any filters (e.g. authentication) defined in
-  # CommitteesController. Be sure to keep this updated too.
+  # OrganizationsController. Be sure to keep this updated too.
   let(:valid_session) { {} }
 
   describe "GET #index" do
     it "returns a success response" do
-      committee = Committee.create! valid_attributes
+      organization = Organization.create! valid_attributes
       get :index, params: {}, session: valid_session
       expect(response).to be_success
     end
@@ -53,44 +53,37 @@ RSpec.describe CommitteesController, type: :controller do
 
   describe "GET #show" do
     it "returns a success response" do
-      committee = Committee.create! valid_attributes
-      get :show, params: { id: committee.to_param }, session: valid_session
-      expect(response).to be_success
-    end
-  end
-
-  describe "GET #new" do
-    it "returns a success response" do
-      get :new, params: {}, session: valid_session
+      organization = Organization.create! valid_attributes
+      get :show, params: { id: organization.to_param }, session: valid_session
       expect(response).to be_success
     end
   end
 
   describe "GET #edit" do
     it "returns a success response" do
-      committee = Committee.create! valid_attributes
-      get :edit, params: { id: committee.to_param }, session: valid_session
+      organization = Organization.create! valid_attributes
+      get :edit, params: { id: organization.to_param }, session: valid_session
       expect(response).to be_success
     end
   end
 
   describe "POST #create" do
     context "with valid params" do
-      it "creates a new Committee" do
+      it "creates a new Organization" do
         expect {
-          post :create, params: { committee: valid_attributes }, session: valid_session
-        }.to change(Committee, :count).by(1)
+          post :create, params: { organization: valid_attributes }, session: valid_session
+        }.to change(Organization, :count).by(1)
       end
 
-      it "redirects to the created committee" do
-        post :create, params: { committee: valid_attributes }, session: valid_session
-        expect(response).to redirect_to(Committee.last)
+      it "redirects to the created organization" do
+        post :create, params: { organization: valid_attributes }, session: valid_session
+        expect(response).to redirect_to(Organization.last)
       end
     end
 
     context "with invalid params" do
       it "returns a success response (i.e. to display the 'new' template)" do
-        post :create, params: { committee: invalid_attributes }, session: valid_session
+        post :create, params: { organization: invalid_attributes }, session: valid_session
         expect(response).to be_success
       end
     end
@@ -102,41 +95,41 @@ RSpec.describe CommitteesController, type: :controller do
         skip("Add a hash of attributes valid for your model")
       }
 
-      it "updates the requested committee" do
-        committee = Committee.create! valid_attributes
-        put :update, params: { id: committee.to_param, committee: new_attributes }, session: valid_session
-        committee.reload
+      it "updates the requested organization" do
+        organization = Organization.create! valid_attributes
+        put :update, params: { id: organization.to_param, organization: new_attributes }, session: valid_session
+        organization.reload
         skip("Add assertions for updated state")
       end
 
-      it "redirects to the committee" do
-        committee = Committee.create! valid_attributes
-        put :update, params: { id: committee.to_param, committee: valid_attributes }, session: valid_session
-        expect(response).to redirect_to(committee)
+      it "redirects to the organization" do
+        organization = Organization.create! valid_attributes
+        put :update, params: { id: organization.to_param, organization: valid_attributes }, session: valid_session
+        expect(response).to redirect_to(organization)
       end
     end
 
     context "with invalid params" do
       it "returns a success response (i.e. to display the 'edit' template)" do
-        committee = Committee.create! valid_attributes
-        put :update, params: { id: committee.to_param, committee: invalid_attributes }, session: valid_session
+        organization = Organization.create! valid_attributes
+        put :update, params: { id: organization.to_param, organization: invalid_attributes }, session: valid_session
         expect(response).to be_success
       end
     end
   end
 
   describe "DELETE #destroy" do
-    it "destroys the requested committee" do
-      committee = Committee.create! valid_attributes
+    it "destroys the requested organization" do
+      organization = Organization.create! valid_attributes
       expect {
-        delete :destroy, params: { id: committee.to_param }, session: valid_session
-      }.to change(Committee, :count).by(-1)
+        delete :destroy, params: { id: organization.to_param }, session: valid_session
+      }.to change(Organization, :count).by(-1)
     end
 
-    it "redirects to the committees list" do
-      committee = Committee.create! valid_attributes
-      delete :destroy, params: { id: committee.to_param }, session: valid_session
-      expect(response).to redirect_to(committees_url)
+    it "redirects to the organizations list" do
+      organization = Organization.create! valid_attributes
+      delete :destroy, params: { id: organization.to_param }, session: valid_session
+      expect(response).to redirect_to(organizations_url)
     end
   end
 
