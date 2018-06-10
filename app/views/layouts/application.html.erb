@@ -10,6 +10,15 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <%= render 'shared/nav' %>
+                    <%= yield %>
+
+            </div>
+        </div>
+        <%= render 'shared/footer' %> 
+    </div>
   </body>
 </html>
