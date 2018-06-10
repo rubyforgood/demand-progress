@@ -23,7 +23,7 @@ RSpec.describe Event, type: :model do
     end
   end
 
-  describe '.by_occurs_at' do
+  describe ".by_occurs_at" do
     it "should order the events by the `occurs_at` attribute (in asc order)" do
       newer_event = create :event, :next_week
       older_event = create :event, :this_week
