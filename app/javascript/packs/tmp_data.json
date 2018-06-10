@@ -9,7 +9,7 @@
         "occurs_at": "2018-07-01 08:00:00",
         "committee_info": [
           {
-            "committe_name": "committee name",
+            "committe_name": "http://react.tips/checkboxes-in-react/",
             "subcommittee_name": "subcommittee name"
           }
         ]

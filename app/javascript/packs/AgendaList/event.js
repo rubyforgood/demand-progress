@@ -3,27 +3,27 @@ import PropTypes from 'prop-types'
 import Moment from 'react-moment';
 import 'moment-timezone';
 
-export function formatSubCommitteeTitle(subcommittee_name){
+export function formatSubcommitteeTitle(subcommittee_name){
   if (subcommittee_name !== undefined){
-    return `<span className="committee-title col-12 col-md-8">{${subcommittee_name}</span>`
+    return (<span className="subcommittee-title col-12 col-md-8">{subcommittee_name}</span>)
   }
 }
 export function formatOccurDate(occurs_at){
   return (
-     <Moment format="MM/DD/YYYY hh:mm A">
-        {occurs_at}
-      </Moment>
-  )
+    <Moment format="MM/DD/YYYY hh:mm A">
+      {occurs_at}
+    </Moment>
+    )
 }
 
 export default function Event({event}){
-  let formattedSubCommittetitle = formatSubCommitteeTitle(event.subcommittee_name)
+  let formattedSubcommitteeTitle = formatSubcommitteeTitle(event.subcommittee_name)
   let formattedOccursAt = formatOccurDate(event.occurs_at)
   return (
-    <div className="event-listing jumbotron row">
+    <div key="{event.id}" className="event jumbotron row">
       <div className="committee-section col-12 col-md-8">
         <span className="committee-title col-12 col-md-8">{event.committee_name}</span>
-        {formattedSubCommittetitle}
+        {formattedSubcommitteeTitle}
       </div>
       <span className="location-section col-12 col-md-3 ">
         <div className="location-title font-weight-bold">Location</div>
@@ -38,7 +38,8 @@ export default function Event({event}){
 }
 
 Event.propTypes = {
-  event: PropTypes.arrayOf({
+  event: PropTypes.shape({
+    id: PropTypes.number,
     topic: PropTypes.string,
     occurs_at: PropTypes.string,
     location: PropTypes.string,
@@ -49,11 +50,12 @@ Event.propTypes = {
 
 Event.defaultProps = {
   event: [
-    {committee_name: "This is a committee name",
-    subcommittee_name: "This is a subcommittee name",
-    topic: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec dui a leo mattis facilisis. Nulla eget massa vel elit ullamcorper laoreet. Nullam non ipsum imperdiet, efficitur metus vel, malesuada nisl. Curabitur laoreet, sem sit amet pellentesque tempor, est risus varius lacus, eget molestie elit ipsum a mauris.",
-    location: "MVC-101",
-    occurs_at: '2018-07-01 23:00:00'}
+    {
+      committee_name: "This is a committee name",
+      subcommittee_name: "This is a subcommittee name",
+      topic: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec dui a leo mattis facilisis. Nulla eget massa vel elit ullamcorper laoreet. Nullam non ipsum imperdiet, efficitur metus vel, malesuada nisl. Curabitur laoreet, sem sit amet pellentesque tempor, est risus varius lacus, eget molestie elit ipsum a mauris.",
+      location: "MVC-101",
+      occurs_at: '2018-07-01 23:00:00'
+    }
   ]
-
 }
