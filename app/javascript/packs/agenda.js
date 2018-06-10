@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import PropTypes from 'prop-types'
-import DailyAgenda from './AgendaList/daily_agenda'
+import AgendaManager from './AgendaList/agenda_manager'
 
 Agenda.propTypes = {
   events: PropTypes.string
@@ -19,7 +19,7 @@ export default function Agenda({events}){
 
   return (
     <div className="daily-agenda">
-      <DailyAgenda />
+      <AgendaManager />
     </div>
   )
 }
