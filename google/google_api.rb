@@ -1,3 +1,6 @@
+# code adapted from quickstart.rb found in
+# https://developers.google.com/calendar/quickstart/ruby?authuser=1
+
 require 'google/apis/calendar_v3'
 require 'googleauth'
 require 'googleauth/stores/file_token_store'
@@ -10,7 +13,6 @@ CLIENT_SECRETS_PATH = 'client_secret_dprfg.json'.freeze
 CREDENTIALS_PATH = 'token.yaml'.freeze
 ###SCOPE = Google::Apis::CalendarV3::AUTH_CALENDAR_READONLY
 SCOPE = Google::Apis::CalendarV3::AUTH_CALENDAR
-
 
 ##
 # Ensure valid credentials, either by restoring from the saved credentials
@@ -45,7 +47,7 @@ calendar_id = 'primary'
 
 now = DateTime.now.strftime(format='%FT%T%:z')
 
-new_event =  Google::Apis::CalendarV3::Event.new({
+meeting =  Google::Apis::CalendarV3::Event.new({
   start: { date_time: DateTime.iso8601('2018-06-15T13:00:00-04:00').strftime(format='%FT%T%:z')},
   end: { date_time: DateTime.iso8601('2018-06-15T14:00:00-04:00').strftime(format='%FT%T%:z')},
   description: "meeting created #{now}",
@@ -53,11 +55,11 @@ new_event =  Google::Apis::CalendarV3::Event.new({
   location: 'longworth A2345'
         })
 
-response = service.insert_event(calendar_id, new_event)
-
+# insert a new calendar event
+event = service.insert_event(calendar_id, meeting)
+puts "new event - #{event.summary} - (#{event.start.date_time}), id = #{event.i_cal_uid}, #{event.html_link}"
 
 # Fetch the next 10 events for the user
-
 response = service.list_events(calendar_id,
                                max_results: 10,
                                single_events: true,
