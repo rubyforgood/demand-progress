@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
-class Committee < ApplicationRecord
+class Organization < ApplicationRecord
   has_ancestry
 end
