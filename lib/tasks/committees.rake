@@ -9,14 +9,14 @@ namespace "committees" do
   namespace "house" do
     desc "Load House Committees and Subcommittees"
     task :load do
-      CommitteeLoader.load(chamber: :house, parent: Committee.find_by(name: "House"))
+      OrganizationLoader.load(chamber: :house, parent: Organization.find_by(name: "House"))
     end
   end
 
   namespace "senate" do
     desc "Load Senate Committees and Subcommittees"
     task :load do
-      CommitteeLoader.load(chamber: :senate, parent: Committee.find_by(name: "Senate"))
+      OrganizationLoader.load(chamber: :senate, parent: Organization.find_by(name: "Senate"))
     end
   end
 end
