@@ -7,11 +7,11 @@
 #
 # Example usage:
 #
-#   CommitteeLoader.load(chamber: :house, parent: Committee.find_by(name: "House"))
-class CommitteeLoader
+#   OrganizationLoader.load(chamber: :house, parent: Organization.find_by(name: "House"))
+class OrganizationLoader
   attr_reader :session, :chamber, :parent
 
-  # Convenience, allowing CommitteeLoader.load(...) syntax
+  # Convenience, allowing OrganizationLoader.load(...) syntax
   class << self
     def load(session: 115, chamber:, parent:)
       new(session: session, chamber: chamber, parent: parent).load
@@ -30,7 +30,7 @@ class CommitteeLoader
     committees = Oj.load(committee_response)["results"][0]["committees"]
 
     committees.each do |committee|
-      new_committee = Committee.create!(name: committee["name"], code: committee["code"], website: committee["url"], parent: parent)
+      new_committee = Organization.create!(name: committee["name"], code: committee["id"], website: committee["url"], parent: parent)
 
       committee["subcommittees"].each do |sub|
 
@@ -40,7 +40,7 @@ class CommitteeLoader
 
         # NOTE: I don't think the subcommittees actually have a website,
         # but should investigate these subcommittee results further
-        subcommittee = Committee.create!(name: sub_result["name"], code: sub_result["id"], parent: new_committee)
+        subcommittee = Organization.create!(name: sub_result["name"], code: sub_result["id"], parent: new_committee)
       end
     end
   end
