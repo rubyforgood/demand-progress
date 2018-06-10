@@ -15,16 +15,6 @@ ActiveRecord::Schema.define(version: 2018_06_10_121037) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "committees", force: :cascade do |t|
-    t.string "name"
-    t.string "code"
-    t.string "website"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.string "ancestry"
-    t.index ["ancestry"], name: "index_committees_on_ancestry"
-  end
-
   create_table "events", force: :cascade do |t|
     t.text "topic"
     t.datetime "occurs_at"
@@ -32,6 +22,16 @@ ActiveRecord::Schema.define(version: 2018_06_10_121037) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "raw_location"
+  end
+
+  create_table "organizations", force: :cascade do |t|
+    t.string "name"
+    t.string "code"
+    t.string "website"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string "ancestry"
+    t.index ["ancestry"], name: "index_organizations_on_ancestry"
   end
 
 end
