@@ -2,14 +2,14 @@ import React from "react";
 import PropTypes from "prop-types";
 import Event from "./event";
 
-export function foo(events) {
+export function agendaEvents(events) {
   return events.map(event => {
     return <Event event={event} key={event.id} />;
   });
 }
 
 export default function DailyAgenda({ agenda_date, events }) {
-  let returnedEvents = foo(events);
+  let returnedEvents = agendaEvents(events);
   return (
     <div className="daily-agenda-section">
       <div>{agenda_date}</div>

@@ -11,15 +11,10 @@ export function formatCommitteeInfo(committee_info) {
   return committee_info.map(event => {
     let formattedSubcommitteeTitle = formatSubcommitteeTitle(
       event.subcommittee_name
-    );
+    )
+    let key = keygen(event.committee_id, event.subcommittee_name)
     return (
-      <div
-        key={keygen(
-          event.committee_info.committee_id,
-          event.committee_info.subcommittee_name
-        )}
-        className="committee-section col-12 col-md-8"
-      >
+      <div key="{key}" className="committee-section col-12 col-md-8">
         <span className="committee-title col-12 col-md-8">
           {event.committee_name}
         </span>

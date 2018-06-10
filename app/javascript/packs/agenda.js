@@ -7,15 +7,8 @@ Agenda.propTypes = {
   events: PropTypes.string
 }
 
-// export function makeEvent(event){
-//   return (
-//     <EventListing id={event.id} key={event.id} event={event}/>
-//   )
-// }
 export default function Agenda({events}){
   let agendaHash = JSON.parse(events)
-  //let agendaEvents = agendaHash.map( (event) => {return (makeEvent(event))})
-  // let eventTopic = agendaEvents.first.topic
 
   return (
     <div className="daily-agenda">
