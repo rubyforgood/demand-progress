@@ -1,0 +1,36 @@
+<?xml-stylesheet type='text/xsl' href='/xslt/cr-public.xslt'?>
+<committee-meeting congress-num="115" session-num="2" meeting-id="HHRG108384" meeting-type="HHRG" create-date="2018-05-30T09:13:23.420" orig-publish-date="2018-05-30T10:01:19.593" update-date="2018-06-06T11:57:41.630">
+  <current-status>R</current-status>
+  <language>en-us</language>
+  <copyright>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</copyright>
+  <publish-dates>
+    <publish-date date="2018-05-30T10:01:19.593" />
+    <publish-date date="2018-06-05T13:52:08" />
+    <publish-date date="2018-06-06T11:57:41.630" />
+  </publish-dates>
+  <meeting-details>
+    <updates>
+      <update-date date="2018-05-30T10:00:52.477" publish-date="2018-05-30T10:01:19.593">
+        <explanatory-notes doc-modified="False" />
+      </update-date>
+      <update-date date="2018-06-05T13:50:32.290" publish-date="2018-06-05T13:52:08">
+        <explanatory-notes doc-modified="False" />
+      </update-date>
+    </updates>
+    <committees>
+      <committee-name id="ED00">Committee on Education and the Workforce</committee-name>
+    </committees>
+    <meeting-date>
+      <calendar-date>2018-06-06</calendar-date>
+      <start-time>09:45:00</start-time>
+    </meeting-date>
+    <meeting-location>
+      <capitol-complex>
+        <room>2175</room>
+        <building>RHOB</building>
+      </capitol-complex>
+    </meeting-location>
+    <meeting-title>"Examining the Policies and Priorities of the U.S. Department of Health and Human Services”</meeting-title>
+    <notes>The hearing originally scheduled at 10:00 a.m. will now begin at 9:45.</notes>
+  </meeting-details>
+</committee-meeting>

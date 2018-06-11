@@ -31,4 +31,19 @@ RSpec.describe Event, type: :model do
       expect(Event.by_occurs_at).to eq [older_event, newer_event]
     end
   end
+
+  describe "location" do
+    it "is updated when a new raw location is saved" do
+      raw_location = {"capitol-complex": {room: "H-313", building: "CAPITOL"}}
+      event = create :event, raw_location: raw_location
+
+      expect(event.location).to eq "Building: CAPITOL, Room: H-313"
+    end
+
+    it "doesn't mess up events that have a location saved directly" do
+      event = create :event, location: "D.C. Zoo"
+
+      expect(event.location).to eq "D.C. Zoo"
+    end
+  end
 end

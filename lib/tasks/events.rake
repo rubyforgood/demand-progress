@@ -3,7 +3,7 @@
 namespace "events" do
   namespace "house" do
     desc "Load upcoming house hearings"
-    task :scrape do
+    task scrape: :environment do
       HouseEventsScraper.run
     end
   end
