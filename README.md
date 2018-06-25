@@ -20,7 +20,6 @@ Team Leads: [David Bock](https://github.com/bokmann) and [Joel Cahalan](https://
 * Clone it to your local machine
 * Request a ProPublica API key: https://www.propublica.org/datastore/api/propublica-congress-api
 
-
 ### Install dependencies
 
 * Install ruby 2.3.1: `$ rbenv install 2.3.1` or `$ rvm install 2.3.1`
@@ -34,3 +33,7 @@ Team Leads: [David Bock](https://github.com/bokmann) and [Joel Cahalan](https://
 * Create your database and tables: `$ rails db:setup`
 * Set your propublica API key: `$ export PROPUBLICA_API_KEY=YOUR_API_KEY_VALUE`
 * Load the committees data: `$ rake committees:senate:load && rake committees:house:load`
+
+### Fire it up!
+
+* Start the server: `rails server`
