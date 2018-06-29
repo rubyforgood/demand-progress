@@ -6,3 +6,6 @@ services:
 script:
   - RAILS_ENV=test bundle exec rake db:setup
   - RAILS_ENV=test bundle exec rake
+env:
+  - POSTGRESQL_USER=root
+  - POSTGRESQL_PASSWORD=
