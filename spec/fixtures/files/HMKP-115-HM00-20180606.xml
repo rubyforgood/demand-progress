@@ -1,0 +1,555 @@
+<?xml-stylesheet type='text/xsl' href='/xslt/cr-public.xslt'?>
+<committee-meeting congress-num="115" session-num="2" meeting-id="HMKP108205" meeting-type="HMKP" create-date="2018-04-17T15:42:55.353" orig-publish-date="2018-05-10T12:02:11.903" update-date="2018-06-06T14:07:55.637">
+  <current-status>R</current-status>
+  <language>en-us</language>
+  <copyright>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</copyright>
+  <publish-dates>
+    <publish-date date="2018-05-10T12:02:11.903" />
+    <publish-date date="2018-05-11T09:00:28.313" />
+    <publish-date date="2018-05-31T16:59:13.793" />
+    <publish-date date="2018-06-06T12:07:40.410" />
+    <publish-date date="2018-06-06T12:07:45.793" />
+    <publish-date date="2018-06-06T12:14:56.520" />
+    <publish-date date="2018-06-06T12:14:58.640" />
+    <publish-date date="2018-06-06T12:15:00.980" />
+    <publish-date date="2018-06-06T13:37:02.187" />
+    <publish-date date="2018-06-06T13:37:06.747" />
+    <publish-date date="2018-06-06T14:07:51.770" />
+    <publish-date date="2018-06-06T14:07:55.637" />
+  </publish-dates>
+  <meeting-details>
+    <updates>
+      <update-date date="2018-04-17T15:46:03.260" publish-date="2018-05-10T12:02:11.903">
+        <explanatory-notes doc-modified="False" />
+      </update-date>
+      <update-date date="2018-04-17T15:46:52.053" publish-date="2018-05-10T12:02:11.903">
+        <explanatory-notes doc-modified="False" />
+      </update-date>
+      <update-date date="2018-04-24T15:16:34.017" publish-date="2018-05-10T12:02:11.903">
+        <explanatory-notes doc-modified="False" />
+      </update-date>
+      <update-date date="2018-05-10T08:40:13.460" publish-date="2018-05-10T12:02:11.903">
+        <explanatory-notes doc-modified="False" />
+      </update-date>
+      <update-date date="2018-05-10T08:40:41.483" publish-date="2018-05-10T12:02:11.903">
+        <explanatory-notes doc-modified="False" />
+      </update-date>
+      <update-date date="2018-05-10T09:49:38.850" publish-date="2018-05-10T12:02:11.903">
+        <explanatory-notes doc-modified="False" />
+      </update-date>
+      <update-date date="2018-05-10T11:56:18.180" publish-date="2018-05-10T12:02:11.903">
+        <explanatory-notes doc-modified="False" />
+      </update-date>
+      <update-date date="2018-05-11T08:58:58.100" publish-date="2018-05-11T09:00:28.313">
+        <explanatory-notes doc-modified="False" />
+      </update-date>
+      <update-date date="2018-05-15T10:22:37.660" publish-date="2018-05-31T16:59:13.793">
+        <explanatory-notes doc-modified="False" />
+      </update-date>
+      <update-date date="2018-05-31T16:56:14.570" publish-date="2018-05-31T16:59:13.793">
+        <explanatory-notes doc-modified="False" />
+      </update-date>
+      <update-date date="2018-05-31T16:56:20.193" publish-date="2018-05-31T16:59:13.793">
+        <explanatory-notes doc-modified="False" />
+      </update-date>
+      <update-date date="2018-05-31T16:56:22.043" publish-date="2018-05-31T16:59:13.793">
+        <explanatory-notes doc-modified="False" />
+      </update-date>
+    </updates>
+    <committees>
+      <committee-name id="HM00">Committee on Homeland Security</committee-name>
+    </committees>
+    <meeting-date>
+      <calendar-date>2018-06-06</calendar-date>
+      <start-time>10:00:00</start-time>
+    </meeting-date>
+    <rescheduled-dates>
+      <meeting-dates>
+        <calendar-date>2018-05-16</calendar-date>
+        <start-time>10:00:00</start-time>
+        <end-time>00:00:00</end-time>
+      </meeting-dates>
+    </rescheduled-dates>
+    <meeting-location>
+      <capitol-complex>
+        <room>HVC-210</room>
+        <building>CAPITOL</building>
+      </capitol-complex>
+    </meeting-location>
+    <meeting-title>Markup of: H.R. 4627, (Mr. Donovan) the “Shielding Public Spaces from Vehicular Terrorism Act”.
+H.R. 4991, (Mr. Donovan) the “Supporting Research and Development for First Responders Act”.
+
+H.R. 5206, (Ms. McSally) the “Office of Biometric Identity Management Authorization Act of 2018”.
+
+H.R. 5207, (Ms. McSally) the “Immigration Advisory Program Authorization Act of 2018”.
+
+H.R. 5729 (Mr. Katko), the  The “Transportation Worker Identification Credential Accountability Act of 2018”.
+
+H.R. 5730, (Mr. Katko) the “Transportation Security Technology Innovation Reform Act of 2018”.
+
+H.R. 5733, (Mr. Bacon) the “DHS Industrial Control Systems Capabilities Enhancement Act of 2018”.
+
+H.R. 5762 (Mr. Langevin) the “Joint Task Force to Combat Opioid Trafficking Act of 2018”.
+
+
+H.R. 5766, (Mr. Payne) the “Securing Public Areas of Transportation Facilities Act of 2018”.
+
+H. Res. 898, (Mr. Thompson of Mississippi) Directing the Secretary of Homeland Security to transmit certain documents to the House of Representatives relating to Department of Homeland Security policies and activities relating to homeland security information produced and disseminated regarding cybersecurity threats posed by the ZTE Corporation, headquartered in Shenzhen, China.</meeting-title>
+  </meeting-details>
+  <meeting-documents>
+    <meeting-document type="BR" add-date="2018-04-17T15:44:18.260" remove-date="" publish-date="2018-05-10T12:02:11.903">
+      <description>H.R. 4627, the “Shielding Public Spaces from Vehicular Terrorism Act”; was ordered to be reported to the House with a favorable recommendation, as amended, by unanimous consent.</description>
+      <legis-num>H.R. 4627</legis-num>
+      <updates>
+        <update-date date="2018-06-06T11:36:44.013" publish-date="2018-06-06T12:07:40.410">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+        <update-date date="2018-06-06T11:38:49.800" publish-date="2018-06-06T12:07:40.410">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+        <update-date date="2018-06-06T14:07:42.380" publish-date="">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+      </updates>
+      <filename-metadata>
+        <legis-num>H.R. 4627</legis-num>
+        <legis-stage>ih</legis-stage>
+        <doc-type>BR</doc-type>
+      </filename-metadata>
+      <files>
+        <file doc-url="http://docs.house.gov/meetings/HM/HM00/20180606/108205/BILLS-115HR4627ih.pdf" doc-type="PDF" add-date="2018-04-17T15:44:18.287" publish-date="2018-05-10T12:02:11.903" />
+      </files>
+    </meeting-document>
+    <meeting-document type="BR" add-date="2018-04-17T15:44:42.180" remove-date="" publish-date="2018-05-10T12:02:11.903">
+      <description>H.R. 4991, the “Supporting Research and Development for First Responders Act”; was ordered to be reported to the House with a favorable recommendation, without amendment, by unanimous consent.</description>
+      <legis-num>H.R. 4991</legis-num>
+      <updates>
+        <update-date date="2018-06-06T11:37:11.440" publish-date="2018-06-06T12:07:40.410">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+      </updates>
+      <filename-metadata>
+        <legis-num>H.R. 4991</legis-num>
+        <legis-stage>ih</legis-stage>
+        <doc-type>BR</doc-type>
+      </filename-metadata>
+      <files>
+        <file doc-url="http://docs.house.gov/meetings/HM/HM00/20180606/108205/BILLS-115HR4991ih.pdf" doc-type="PDF" add-date="2018-04-17T15:44:42.190" publish-date="2018-05-10T12:02:11.903" />
+      </files>
+    </meeting-document>
+    <meeting-document type="BR" add-date="2018-04-17T15:45:04.437" remove-date="" publish-date="2018-05-10T12:02:11.903">
+      <description>H.R. 5206, the “Office of Biometric Identity Management Authorization Act of 2018”; was ordered to be reported to the House with a favorable recommendation, as amended, by unanimous consent.</description>
+      <legis-num>H.R. 5206</legis-num>
+      <updates>
+        <update-date date="2018-06-06T11:38:56.863" publish-date="2018-06-06T12:07:40.410">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+      </updates>
+      <filename-metadata>
+        <legis-num>H.R. 5206</legis-num>
+        <legis-stage>ih</legis-stage>
+        <doc-type>BR</doc-type>
+      </filename-metadata>
+      <files>
+        <file doc-url="http://docs.house.gov/meetings/HM/HM00/20180606/108205/BILLS-115HR5206ih.pdf" doc-type="PDF" add-date="2018-04-17T15:45:04.457" publish-date="2018-05-10T12:02:11.903" />
+      </files>
+    </meeting-document>
+    <meeting-document type="BR" add-date="2018-04-17T15:45:24.313" remove-date="" publish-date="2018-05-10T12:02:11.903">
+      <description>H.R. 5207, the “Immigration Advisory Program Authorization Act of 2018”; was ordered to be reported to the House with a favorable recommendation, as amended, by unanimous consent.</description>
+      <legis-num>H.R. 5207</legis-num>
+      <updates>
+        <update-date date="2018-06-06T11:39:04.533" publish-date="2018-06-06T12:07:40.410">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+      </updates>
+      <filename-metadata>
+        <legis-num>H.R. 5207</legis-num>
+        <legis-stage>ih</legis-stage>
+        <doc-type>BR</doc-type>
+      </filename-metadata>
+      <files>
+        <file doc-url="http://docs.house.gov/meetings/HM/HM00/20180606/108205/BILLS-115HR5207ih.pdf" doc-type="PDF" add-date="2018-04-17T15:45:24.327" publish-date="2018-05-10T12:02:11.903" />
+      </files>
+    </meeting-document>
+    <meeting-document type="BR" add-date="2018-05-10T08:42:01.727" remove-date="" publish-date="2018-05-10T12:02:11.903">
+      <description>H.R. 5730, the “Transportation Security Technology Innovation Reform Act of 2018”; was ordered to be reported to the House with a favorable recommendation, as amended, by unanimous consent.</description>
+      <legis-num>H.R. 5730</legis-num>
+      <updates>
+        <update-date date="2018-05-31T08:48:43.620" publish-date="2018-06-06T12:07:40.410">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+        <update-date date="2018-06-06T11:39:22.267" publish-date="2018-06-06T12:07:40.410">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+      </updates>
+      <filename-metadata>
+        <legis-num>H.R. 5730</legis-num>
+        <legis-stage>ih</legis-stage>
+        <doc-type>BR</doc-type>
+      </filename-metadata>
+      <files>
+        <file doc-url="http://docs.house.gov/meetings/HM/HM00/20180606/108205/BILLS-115HR5730ih.pdf" doc-type="PDF" add-date="2018-05-31T08:48:43.643" publish-date="2018-05-10T12:02:11.903" />
+      </files>
+    </meeting-document>
+    <meeting-document type="BR" add-date="2018-05-10T08:43:08.283" remove-date="" publish-date="2018-05-10T12:02:11.903">
+      <description>H.R. 5733, the “DHS Industrial Control Systems Capabilities Enhancement Act of 2018”; was ordered to be reported to the House with a favorable recommendation, as amended, by unanimous consent.</description>
+      <legis-num>H.R. 5733</legis-num>
+      <updates>
+        <update-date date="2018-05-31T08:48:16.290" publish-date="2018-06-06T12:07:40.410">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+        <update-date date="2018-06-06T11:40:17.660" publish-date="2018-06-06T12:07:40.410">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+      </updates>
+      <filename-metadata>
+        <legis-num>H.R. 5733</legis-num>
+        <legis-stage>ih</legis-stage>
+        <doc-type>BR</doc-type>
+      </filename-metadata>
+      <files>
+        <file doc-url="http://docs.house.gov/meetings/HM/HM00/20180606/108205/BILLS-115HR5733ih.pdf" doc-type="PDF" add-date="2018-05-31T08:48:16.320" publish-date="2018-05-10T12:02:11.903" />
+      </files>
+    </meeting-document>
+    <meeting-document type="BR" add-date="2018-05-10T10:10:50.950" remove-date="" publish-date="2018-05-10T12:02:11.903">
+      <description>H.R. 5766, the “Securing Public Areas of Transportation Facilities Act of 2018” ; was ordered to be reported to the House with a favorable recommendation, without amendment, by unanimous consent.</description>
+      <legis-num>H.R. 5766</legis-num>
+      <updates>
+        <update-date date="2018-05-11T09:00:06.180" publish-date="2018-06-06T12:07:40.410">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+        <update-date date="2018-05-31T08:47:36.617" publish-date="2018-06-06T12:07:40.410">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+        <update-date date="2018-05-31T08:47:37.427" publish-date="2018-06-06T12:07:40.410">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+        <update-date date="2018-06-06T11:38:30.263" publish-date="2018-06-06T12:07:40.410">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+      </updates>
+      <filename-metadata>
+        <legis-num>H.R. 5766</legis-num>
+        <legis-stage>ih</legis-stage>
+        <doc-type>BR</doc-type>
+        <short-desc>HR5766</short-desc>
+      </filename-metadata>
+      <files>
+        <file doc-url="http://docs.house.gov/meetings/HM/HM00/20180606/108205/BILLS-115HR5766ih-HR5766.pdf" doc-type="PDF" add-date="2018-06-06T11:38:30.280" publish-date="2018-05-10T12:02:11.903" />
+      </files>
+    </meeting-document>
+    <meeting-document type="BR" add-date="2018-05-10T10:12:44.113" remove-date="" publish-date="2018-05-10T12:02:11.903">
+      <description>H.R. 5762, the “Joint Task Force to Combat Opioid Trafficking Act of 2018"; was ordered to be reported to the House with a favorable recommendation, as amended, by unanimous consent.</description>
+      <legis-num>HR5762</legis-num>
+      <updates>
+        <update-date date="2018-05-10T11:57:21.610" publish-date="2018-05-10T12:02:11.903">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+        <update-date date="2018-05-11T08:59:40.840" publish-date="2018-06-06T12:07:40.410">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+        <update-date date="2018-05-31T08:47:49.727" publish-date="2018-06-06T12:07:40.410">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+        <update-date date="2018-06-06T11:40:27.200" publish-date="2018-06-06T12:07:40.410">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+      </updates>
+      <filename-metadata>
+        <legis-num>HR5762</legis-num>
+        <legis-stage>pih</legis-stage>
+        <doc-type>BR</doc-type>
+        <short-desc>HR5762</short-desc>
+      </filename-metadata>
+      <files>
+        <file doc-url="http://docs.house.gov/meetings/HM/HM00/20180606/108205/BILLS-115HR5762pih-HR5762.pdf" doc-type="PDF" add-date="2018-05-31T08:47:49.743" publish-date="2018-05-10T12:02:11.903" />
+      </files>
+    </meeting-document>
+    <meeting-document type="BR" add-date="2018-05-31T08:49:58.623" remove-date="" publish-date="2018-05-31T16:59:13.793">
+      <description>H. RES. 898
+Directing the Secretary of Homeland Security to transmit certain documents
+to the House of Representatives relating to Department of Homeland
+Security policies and activities relating to homeland security information
+produced and disseminated regarding cybersecurity threats posed by the
+ZTE Corporation, headquartered in Shenzhen, China; was ordered to be reported to the House with an unfavorable recommendation, without amendment, by a recorded vote of 16 yeas and 11 nays (Roll Call Vote No. 37).</description>
+      <legis-num>H.Res. 898</legis-num>
+      <updates>
+        <update-date date="2018-06-06T11:36:03.517" publish-date="2018-06-06T12:07:40.410">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+      </updates>
+      <filename-metadata>
+        <legis-num>H.Res. 898</legis-num>
+        <legis-stage>ih</legis-stage>
+        <doc-type>BR</doc-type>
+      </filename-metadata>
+      <files>
+        <file doc-url="http://docs.house.gov/meetings/HM/HM00/20180606/108205/BILLS-115HRes898ih.pdf" doc-type="PDF" add-date="2018-05-31T08:49:58.637" publish-date="2018-05-31T16:59:13.793" />
+      </files>
+    </meeting-document>
+    <meeting-document type="BR" add-date="2018-05-31T09:39:51.527" remove-date="" publish-date="2018-05-31T16:59:13.793">
+      <description>H.R. 5729, the "Transportation Worker Identification Credential Accountability Act of 2018"; was ordered to be reported to the House with a favorable recommendation, as amended, by unanimous consent.</description>
+      <legis-num>H.R. 5729</legis-num>
+      <updates>
+        <update-date date="2018-06-06T11:39:14.840" publish-date="2018-06-06T12:07:40.410">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+        <update-date date="2018-06-06T11:39:15.783" publish-date="2018-06-06T12:07:40.410">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+        <update-date date="2018-06-06T11:39:33.663" publish-date="2018-06-06T12:07:40.410">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+      </updates>
+      <filename-metadata>
+        <legis-num>H.R. 5729</legis-num>
+        <legis-stage>ih</legis-stage>
+        <doc-type>BR</doc-type>
+      </filename-metadata>
+      <files>
+        <file doc-url="http://docs.house.gov/meetings/HM/HM00/20180606/108205/BILLS-115HR5729ih.pdf" doc-type="PDF" add-date="2018-05-31T09:39:51.547" publish-date="2018-05-31T16:59:13.793" />
+      </files>
+    </meeting-document>
+    <meeting-document type="CA" add-date="2018-05-31T16:58:20.753" remove-date="" publish-date="2018-05-31T16:59:13.793">
+      <description>H.R. 4627, Amendment #1, Amendment in the Nature of a Substitute offered by Mr. Donovan, was AGREED TO, as amended, by unanimous consent.</description>
+      <legis-num>H.R. 4627</legis-num>
+      <updates>
+        <update-date date="2018-06-06T11:34:02.647" publish-date="2018-06-06T12:07:40.410">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+      </updates>
+      <filename-metadata>
+        <legis-num>H.R. 4627</legis-num>
+        <legis-stage>ih</legis-stage>
+        <doc-type>CA</doc-type>
+        <bioguideID>D000625</bioguideID>
+        <amdt-num>1</amdt-num>
+      </filename-metadata>
+      <files>
+        <file doc-url="http://docs.house.gov/meetings/HM/HM00/20180606/108205/BILLS-115-HR4627-D000625-Amdt-1.pdf" doc-type="PDF" add-date="2018-05-31T16:58:20.767" publish-date="2018-05-31T16:59:13.793" />
+      </files>
+    </meeting-document>
+    <meeting-document type="CA" add-date="2018-05-31T16:58:57.307" remove-date="" publish-date="2018-05-31T16:59:13.793">
+      <description>H.R. 5206, Amendment #1, Amendment in the Nature of a Substitute offered by Ms. McSally, was AGREED TO, as amended, by unanimous consent.</description>
+      <legis-num>H.R. 5206</legis-num>
+      <updates>
+        <update-date date="2018-06-06T11:32:23.623" publish-date="2018-06-06T12:07:40.410">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+        <update-date date="2018-06-06T11:33:01.440" publish-date="2018-06-06T12:07:40.410">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+      </updates>
+      <filename-metadata>
+        <legis-num>H.R. 5206</legis-num>
+        <legis-stage>ih</legis-stage>
+        <doc-type>CA</doc-type>
+        <bioguideID>M001197</bioguideID>
+        <amdt-num>1</amdt-num>
+      </filename-metadata>
+      <files>
+        <file doc-url="http://docs.house.gov/meetings/HM/HM00/20180606/108205/BILLS-115-HR5206-M001197-Amdt-1.pdf" doc-type="PDF" add-date="2018-05-31T16:58:57.320" publish-date="2018-05-31T16:59:13.793" />
+      </files>
+    </meeting-document>
+    <meeting-document type="CA" add-date="2018-06-05T08:27:51.330" remove-date="" publish-date="2018-06-06T12:07:40.410">
+      <description>H.R. 4627, Amendment #1A, offered by Ms. Jackson Lee, was AGREED TO by unanimous consent.</description>
+      <legis-num>H.R. 4627</legis-num>
+      <updates>
+        <update-date date="2018-06-05T13:51:46.040" publish-date="2018-06-06T12:07:40.410">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+        <update-date date="2018-06-05T13:51:46.810" publish-date="2018-06-06T12:07:40.410">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+        <update-date date="2018-06-06T11:32:30.830" publish-date="2018-06-06T12:07:40.410">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+      </updates>
+      <filename-metadata>
+        <legis-num>H.R. 4627</legis-num>
+        <legis-stage>ih</legis-stage>
+        <doc-type>CA</doc-type>
+        <bioguideID>J000032</bioguideID>
+        <amdt-num>1A</amdt-num>
+      </filename-metadata>
+      <files>
+        <file doc-url="http://docs.house.gov/meetings/HM/HM00/20180606/108205/BILLS-115-HR4627-J000032-Amdt-1A.pdf" doc-type="PDF" add-date="2018-06-05T13:51:46.057" publish-date="2018-06-06T12:07:40.410" />
+      </files>
+    </meeting-document>
+    <meeting-document type="CA" add-date="2018-06-05T08:28:33.440" remove-date="" publish-date="2018-06-06T12:07:40.410">
+      <description>H.R. 5206, Amendment #1A, offered by Mrs. Watson Coleman, was AGREED TO by unanimous consent.</description>
+      <legis-num>H.R. 5206</legis-num>
+      <updates>
+        <update-date date="2018-06-06T11:31:49.867" publish-date="2018-06-06T12:07:40.410">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+      </updates>
+      <filename-metadata>
+        <legis-num>H.R. 5206</legis-num>
+        <legis-stage>ih</legis-stage>
+        <doc-type>CA</doc-type>
+        <bioguideID>W000822</bioguideID>
+        <amdt-num>1A</amdt-num>
+      </filename-metadata>
+      <files>
+        <file doc-url="http://docs.house.gov/meetings/HM/HM00/20180606/108205/BILLS-115-HR5206-W000822-Amdt-1A.pdf" doc-type="PDF" add-date="2018-06-05T08:28:33.457" publish-date="2018-06-06T12:07:40.410" />
+      </files>
+    </meeting-document>
+    <meeting-document type="CA" add-date="2018-06-05T08:29:13.887" remove-date="" publish-date="2018-06-06T12:07:40.410">
+      <description>H.R. 5207, Amendment #1, offered by Mr. Thompson of Mississippi, was AGREED TO by unanimous consent.</description>
+      <legis-num>H.R. 5207</legis-num>
+      <updates>
+        <update-date date="2018-06-06T11:31:44.130" publish-date="2018-06-06T12:07:40.410">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+      </updates>
+      <filename-metadata>
+        <legis-num>H.R. 5207</legis-num>
+        <legis-stage>ih</legis-stage>
+        <doc-type>CA</doc-type>
+        <bioguideID>T000193</bioguideID>
+        <amdt-num>1</amdt-num>
+      </filename-metadata>
+      <files>
+        <file doc-url="http://docs.house.gov/meetings/HM/HM00/20180606/108205/BILLS-115-HR5207-T000193-Amdt-1.pdf" doc-type="PDF" add-date="2018-06-05T08:29:13.910" publish-date="2018-06-06T12:07:40.410" />
+      </files>
+    </meeting-document>
+    <meeting-document type="CA" add-date="2018-06-05T08:29:47.707" remove-date="" publish-date="2018-06-06T12:07:40.410">
+      <description>H.R. 5729, Amendment #1, offered by Ms. Jackson Lee, was AGREED TO by unanimous consent.</description>
+      <legis-num>H.R. 5729</legis-num>
+      <updates>
+        <update-date date="2018-06-05T13:51:21.373" publish-date="2018-06-06T12:07:40.410">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+        <update-date date="2018-06-05T13:51:22.233" publish-date="2018-06-06T12:07:40.410">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+        <update-date date="2018-06-06T11:31:38.787" publish-date="2018-06-06T12:07:40.410">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+      </updates>
+      <filename-metadata>
+        <legis-num>H.R. 5729</legis-num>
+        <legis-stage>ih</legis-stage>
+        <doc-type>CA</doc-type>
+        <bioguideID>J000032</bioguideID>
+        <amdt-num>1</amdt-num>
+      </filename-metadata>
+      <files>
+        <file doc-url="http://docs.house.gov/meetings/HM/HM00/20180606/108205/BILLS-115-HR5729-J000032-Amdt-1.pdf" doc-type="PDF" add-date="2018-06-05T13:51:21.387" publish-date="2018-06-06T12:07:40.410" />
+      </files>
+    </meeting-document>
+    <meeting-document type="CA" add-date="2018-06-05T08:30:26.687" remove-date="" publish-date="2018-06-06T12:07:40.410">
+      <description>H.R. 5730, Amendment #1, offered by Mr. Thompson of Mississippi, was AGREED TO by unanimous consent.</description>
+      <legis-num>H.R. 5730</legis-num>
+      <updates>
+        <update-date date="2018-06-06T11:31:33.773" publish-date="2018-06-06T12:07:40.410">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+      </updates>
+      <filename-metadata>
+        <legis-num>H.R. 5730</legis-num>
+        <legis-stage>ih</legis-stage>
+        <doc-type>CA</doc-type>
+        <bioguideID>T000193</bioguideID>
+        <amdt-num>1</amdt-num>
+      </filename-metadata>
+      <files>
+        <file doc-url="http://docs.house.gov/meetings/HM/HM00/20180606/108205/BILLS-115-HR5730-T000193-Amdt-1.pdf" doc-type="PDF" add-date="2018-06-05T08:30:26.703" publish-date="2018-06-06T12:07:40.410" />
+      </files>
+    </meeting-document>
+    <meeting-document type="CA" add-date="2018-06-05T08:31:12.243" remove-date="" publish-date="2018-06-06T12:07:40.410">
+      <description>H.R. 5730, Amendment #2, offered by Ms. Jackson Lee, was AGREED TO by unanimous consent.</description>
+      <legis-num>H.R. 5730</legis-num>
+      <updates>
+        <update-date date="2018-06-05T13:51:08.767" publish-date="2018-06-06T12:07:40.410">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+        <update-date date="2018-06-06T11:31:28.137" publish-date="2018-06-06T12:07:40.410">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+      </updates>
+      <filename-metadata>
+        <legis-num>H.R. 5730</legis-num>
+        <legis-stage>ih</legis-stage>
+        <doc-type>CA</doc-type>
+        <bioguideID>J000032</bioguideID>
+        <amdt-num>2</amdt-num>
+      </filename-metadata>
+      <files>
+        <file doc-url="http://docs.house.gov/meetings/HM/HM00/20180606/108205/BILLS-115-HR5730-J000032-Amdt-2.pdf" doc-type="PDF" add-date="2018-06-05T13:51:08.783" publish-date="2018-06-06T12:07:40.410" />
+      </files>
+    </meeting-document>
+    <meeting-document type="CA" add-date="2018-06-05T08:31:55.357" remove-date="" publish-date="2018-06-06T12:07:40.410">
+      <description>H.R. 5733, Amendment #1, offered by Mr. Langevin, was AGREED TO by unanimous consent.</description>
+      <legis-num>H.R. 5733</legis-num>
+      <updates>
+        <update-date date="2018-06-05T16:28:58.390" publish-date="2018-06-06T12:07:40.410">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+        <update-date date="2018-06-06T11:31:22.780" publish-date="2018-06-06T12:07:40.410">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+      </updates>
+      <filename-metadata>
+        <legis-num>H.R. 5733</legis-num>
+        <legis-stage>ih</legis-stage>
+        <doc-type>CA</doc-type>
+        <bioguideID>L000559</bioguideID>
+        <amdt-num>1</amdt-num>
+      </filename-metadata>
+      <files>
+        <file doc-url="http://docs.house.gov/meetings/HM/HM00/20180606/108205/BILLS-115-HR5733-L000559-Amdt-1.pdf" doc-type="PDF" add-date="2018-06-05T16:28:58.407" publish-date="2018-06-06T12:07:40.410" />
+      </files>
+    </meeting-document>
+    <meeting-document type="CA" add-date="2018-06-05T08:32:36.967" remove-date="" publish-date="2018-06-06T12:07:40.410">
+      <description>H.R. 5762, Amendment #1, offered by Mr. Keating, was AGREED TO by unanimous consent.</description>
+      <legis-num>H.R. 5762</legis-num>
+      <updates>
+        <update-date date="2018-06-06T08:13:27.100" publish-date="2018-06-06T12:07:40.410">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+        <update-date date="2018-06-06T11:31:11.743" publish-date="2018-06-06T12:07:40.410">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+      </updates>
+      <filename-metadata>
+        <legis-num>H.R. 5762</legis-num>
+        <legis-stage>ih</legis-stage>
+        <doc-type>CA</doc-type>
+        <bioguideID>K000375</bioguideID>
+        <amdt-num>1</amdt-num>
+      </filename-metadata>
+      <files>
+        <file doc-url="http://docs.house.gov/meetings/HM/HM00/20180606/108205/BILLS-115-HR5762-K000375-Amdt-1.pdf" doc-type="PDF" add-date="2018-06-06T08:13:27.130" publish-date="2018-06-06T12:07:40.410" />
+      </files>
+    </meeting-document>
+    <meeting-document type="CV" add-date="2018-06-06T12:14:39.923" remove-date="" publish-date="2018-06-06T12:14:56.520">
+      <description>Roll Call Vote No. 37, H. Res. 898, on ordering H. Res. 898 to be reported to the House of Representatives with an unfavorable recommendation, without amendment, was AGREED TO by a recorded vote of 16 yeas and 11 nays (Roll Call Vote No. 37).</description>
+      <updates>
+        <update-date date="2018-06-06T13:36:29.187" publish-date="">
+          <explanatory-notes doc-modified="False" />
+        </update-date>
+      </updates>
+      <filename-metadata>
+        <legis-stage>ih</legis-stage>
+        <doc-type>CV</doc-type>
+        <vote-num>37</vote-num>
+      </filename-metadata>
+      <files>
+        <file doc-url="http://docs.house.gov/meetings/HM/HM00/20180606/108205/CRPT-115-HM00-Vote037-20180606.pdf" doc-type="PDF" add-date="2018-06-06T12:14:39.933" publish-date="2018-06-06T12:14:56.520" />
+      </files>
+    </meeting-document>
+    <meeting-document type="SD" add-date="2018-06-06T13:35:50.253" remove-date="" publish-date="2018-06-06T13:37:02.187">
+      <description>Committee Action</description>
+      <filename-metadata>
+        <legis-stage>ih</legis-stage>
+        <doc-type>SD</doc-type>
+        <version-num>1</version-num>
+      </filename-metadata>
+      <files>
+        <file doc-url="http://docs.house.gov/meetings/HM/HM00/20180606/108205/HMKP-115-HM00-20180606-SD001.pdf" doc-type="PDF" add-date="2018-06-06T13:35:50.267" publish-date="2018-06-06T13:37:02.187" />
+      </files>
+    </meeting-document>
+  </meeting-documents>
+</committee-meeting>

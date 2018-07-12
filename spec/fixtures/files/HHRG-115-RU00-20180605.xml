@@ -1,0 +1,178 @@
+<?xml-stylesheet type='text/xsl' href='/xslt/cr-public.xslt'?>
+<committee-meeting congress-num="115" session-num="2" meeting-id="HHRG108381" meeting-type="HHRG" create-date="2018-05-29T15:33:42.917" orig-publish-date="2018-05-31T15:37:19.453" update-date="2018-06-06T09:34:13.560">
+  <current-status>S</current-status>
+  <language>en-us</language>
+  <copyright>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</copyright>
+  <publish-dates>
+    <publish-date date="2018-05-31T15:37:19.453" />
+    <publish-date date="2018-06-04T11:17:28.070" />
+    <publish-date date="2018-06-06T09:34:13.560" />
+  </publish-dates>
+  <meeting-details>
+    <committees>
+      <committee-name id="RU00">Committee on Rules</committee-name>
+    </committees>
+    <meeting-date>
+      <calendar-date>2018-06-05</calendar-date>
+      <start-time>17:00:00</start-time>
+    </meeting-date>
+    <meeting-location>
+      <capitol-complex>
+        <room>H-313</room>
+        <building>CAPITOL</building>
+      </capitol-complex>
+    </meeting-location>
+    <meeting-title>H.R. 5895—Energy and Water Development and Related Agencies Appropriations Act, 2019 [Energy and Water, Legislative Branch, and Military Construction and Veterans Affairs Appropriations Act, 2019] (Showing the text of H.R. 5895, H.R. 5894, and H.R. 5786 as reported by the Committee on Appropriations, as modified.) [General Debate]; H.R. 8—Water Resources Development Act of 2018 (Rules Committee Print 115-72—Showing the text of H.R. 8 as ordered reported by the Committee on Transportation and Infrastructure, with modifications.); Senate Amendment to H.R. 3294—Project Safe Neighborhoods Grant Program Authorization Act of 2018</meeting-title>
+  </meeting-details>
+  <meeting-documents>
+    <meeting-document type="BR" add-date="2018-05-29T15:37:28.460" remove-date="" publish-date="2018-05-31T15:37:19.453">
+      <description>H.R. 5895—Energy and Water Development and Related Agencies Appropriations Act, 2019 [Energy and Water, Legislative Branch, and Military Construction and Veterans Affairs Appropriations Act, 2019]</description>
+      <legis-num>H.R. 5895</legis-num>
+      <filename-metadata>
+        <legis-num>H.R. 5895</legis-num>
+        <legis-stage>rh</legis-stage>
+        <doc-type>BR</doc-type>
+      </filename-metadata>
+      <files>
+        <file doc-url="https://www.gpo.gov/fdsys/pkg/BILLS-115hr5895rh/pdf/BILLS-115hr5895rh.pdf" doc-type="PDF" add-date="2018-05-29T15:37:28.473" publish-date="2018-05-31T15:37:19.453" />
+        <file doc-url="https://www.gpo.gov/fdsys/pkg/BILLS-115hr5895rh/xml/BILLS-115hr5895rh.xml" doc-type="XML" add-date="2018-05-29T15:37:28.483" publish-date="2018-05-31T15:37:19.453" />
+      </files>
+    </meeting-document>
+    <meeting-document type="BR" add-date="2018-05-29T15:41:07.053" remove-date="" publish-date="2018-05-31T15:37:19.453">
+      <description>Rules Committee Print 115-71— Showing the text of H.R. 5895, H.R. 5894, and H.R. 5786 as reported by the Committee on Appropriations, as modified.</description>
+      <legis-num>RCP 115-71</legis-num>
+      <filename-metadata>
+        <legis-num>RCP 115-71</legis-num>
+        <legis-stage>ih</legis-stage>
+        <doc-type>BR</doc-type>
+      </filename-metadata>
+      <files>
+        <file doc-url="http://docs.house.gov/billsthisweek/20180604/BILLS-%20115HR5895HR5894HR5786-RCP115-71.pdf" doc-type="PDF" add-date="2018-05-29T15:41:07.070" publish-date="2018-05-31T15:37:19.453" />
+        <file doc-url="http://docs.house.gov/billsthisweek/20180604/BILLS-%20115HR5895HR5894HR5786-RCP115-71.xml" doc-type="XML" add-date="2018-05-29T15:41:07.080" publish-date="2018-05-31T15:37:19.453" />
+      </files>
+    </meeting-document>
+    <meeting-document type="CR" add-date="2018-05-29T15:41:56.763" remove-date="" publish-date="2018-05-31T15:37:19.453">
+      <description>H. Rept. 115-697—Report from the Committee on Appropriations to accompany H.R. 5895 [Energy and Water Development Appropriations Bill, 2019]</description>
+      <legis-num>H. Rept. 115-697</legis-num>
+      <filename-metadata>
+        <legis-num>H. Rept. 115-697</legis-num>
+        <legis-stage>ih</legis-stage>
+        <doc-type>CR</doc-type>
+      </filename-metadata>
+      <files>
+        <file doc-url="https://www.gpo.gov/fdsys/pkg/CRPT-115hrpt697/pdf/CRPT-115hrpt697.pdf" doc-type="PDF" add-date="2018-05-29T15:41:56.777" publish-date="2018-05-31T15:37:19.453" />
+      </files>
+    </meeting-document>
+    <meeting-document type="CR" add-date="2018-05-29T15:43:22.923" remove-date="" publish-date="2018-05-31T15:37:19.453">
+      <description>H. Rept. 115-696—Report from the Committee on Appropriations to accompany H.R. 5894 [Legislative Branch Appropriations Bill, 2019]</description>
+      <legis-num>H. Rept. 115-696</legis-num>
+      <filename-metadata>
+        <legis-num>H. Rept. 115-696</legis-num>
+        <legis-stage>ih</legis-stage>
+        <doc-type>CR</doc-type>
+      </filename-metadata>
+      <files>
+        <file doc-url="https://www.gpo.gov/fdsys/pkg/CRPT-115hrpt696/pdf/CRPT-115hrpt696.pdf" doc-type="PDF" add-date="2018-05-29T15:43:22.937" publish-date="2018-05-31T15:37:19.453" />
+      </files>
+    </meeting-document>
+    <meeting-document type="CR" add-date="2018-05-29T15:44:12.400" remove-date="" publish-date="2018-05-31T15:37:19.453">
+      <description>H. Rept. 115-673—Report from the Committee on Appropriations to accompany H.R. 5786 [Military Construction, Veterans Affairs, and Related Agencies Appropriations Bill, 2019]</description>
+      <legis-num>H. Rept. 115-673</legis-num>
+      <filename-metadata>
+        <legis-num>H. Rept. 115-673</legis-num>
+        <legis-stage>ih</legis-stage>
+        <doc-type>CR</doc-type>
+      </filename-metadata>
+      <files>
+        <file doc-url="https://www.gpo.gov/fdsys/pkg/CRPT-115hrpt673/pdf/CRPT-115hrpt673.pdf" doc-type="PDF" add-date="2018-05-29T15:44:12.417" publish-date="2018-05-31T15:37:19.453" />
+      </files>
+    </meeting-document>
+    <meeting-document type="BR" add-date="2018-05-29T15:48:38.663" remove-date="" publish-date="2018-05-31T15:37:19.453">
+      <description>Rules Committee Print 115-72— Showing the text of H.R. 8 as ordered reported by the Committee on Transportation and Infrastructure, with modifications.</description>
+      <legis-num>RCP 115-72</legis-num>
+      <filename-metadata>
+        <legis-num>RCP 115-72</legis-num>
+        <legis-stage>ih</legis-stage>
+        <doc-type>BR</doc-type>
+      </filename-metadata>
+      <files>
+        <file doc-url="http://docs.house.gov/billsthisweek/20180604/BILLS-115HR8-RCP115-72.pdf" doc-type="PDF" add-date="2018-05-29T15:48:38.687" publish-date="2018-05-31T15:37:19.453" />
+        <file doc-url="http://docs.house.gov/billsthisweek/20180604/BILLS-115HR8-RCP115-72.xml" doc-type="XML" add-date="2018-05-29T15:48:38.707" publish-date="2018-05-31T15:37:19.453" />
+      </files>
+    </meeting-document>
+    <meeting-document type="BR" add-date="2018-05-29T15:50:30.633" remove-date="" publish-date="2018-05-31T15:37:19.453">
+      <description>Senate amendment to H.R. 3249—Project Safe Neighborhoods Grant Program Authorization Act of 2018</description>
+      <legis-num>Senate Amendment to H.R. 3249</legis-num>
+      <filename-metadata>
+        <legis-num>Senate Amendment to H.R. 3249</legis-num>
+        <legis-stage>es</legis-stage>
+        <doc-type>BR</doc-type>
+      </filename-metadata>
+      <files>
+        <file doc-url="https://www.gpo.gov/fdsys/pkg/BILLS-115hr3249eas/pdf/BILLS-115hr3249eas.pdf" doc-type="PDF" add-date="2018-05-29T15:50:30.647" publish-date="2018-05-31T15:37:19.453" />
+        <file doc-url="https://www.gpo.gov/fdsys/pkg/BILLS-115hr3249eas/xml/BILLS-115hr3249eas.xml" doc-type="XML" add-date="2018-05-29T15:50:30.660" publish-date="2018-05-31T15:37:19.453" />
+      </files>
+    </meeting-document>
+    <meeting-document type="CR" add-date="2018-05-31T15:36:59.370" remove-date="" publish-date="2018-05-31T15:37:19.453">
+      <description>H. Rept. 115-597—Report from the Committee on Appropriations to accompany H.R. 3249</description>
+      <legis-num>H. Rept. 115-597</legis-num>
+      <filename-metadata>
+        <legis-num>H. Rept. 115-597</legis-num>
+        <legis-stage>ih</legis-stage>
+        <doc-type>CR</doc-type>
+      </filename-metadata>
+      <files>
+        <file doc-url="https://www.gpo.gov/fdsys/pkg/CRPT-115hrpt597/pdf/CRPT-115hrpt597.pdf" doc-type="PDF" add-date="2018-05-31T15:36:59.387" publish-date="2018-05-31T15:37:19.453" />
+      </files>
+    </meeting-document>
+    <meeting-document type="CR" add-date="2018-06-04T11:16:20.440" remove-date="" publish-date="2018-06-04T11:17:28.070">
+      <description>H. Rept. 115-708—Report from the Committee on Transportation and Infrastructure to accompany H.R. 8</description>
+      <legis-num>H. Rept. 115-708</legis-num>
+      <filename-metadata>
+        <legis-num>H. Rept. 115-708</legis-num>
+        <legis-stage>ih</legis-stage>
+        <doc-type>CR</doc-type>
+      </filename-metadata>
+      <files>
+        <file doc-url="https://www.gpo.gov/fdsys/pkg/CRPT-115hrpt708/pdf/CRPT-115hrpt708.pdf" doc-type="PDF" add-date="2018-06-04T11:16:20.453" publish-date="2018-06-04T11:17:28.070" />
+      </files>
+    </meeting-document>
+    <meeting-document type="BR" add-date="2018-06-04T11:17:17.387" remove-date="" publish-date="2018-06-04T11:17:28.070">
+      <description>H.R. 8—Water Resources Development Act of 2018</description>
+      <legis-num>H.R. 8</legis-num>
+      <filename-metadata>
+        <legis-num>H.R. 8</legis-num>
+        <legis-stage>rh</legis-stage>
+        <doc-type>BR</doc-type>
+      </filename-metadata>
+      <files>
+        <file doc-url="https://www.gpo.gov/fdsys/pkg/BILLS-115hr8rh/pdf/BILLS-115hr8rh.pdf" doc-type="PDF" add-date="2018-06-04T11:17:17.407" publish-date="2018-06-04T11:17:28.070" />
+        <file doc-url="https://www.gpo.gov/fdsys/pkg/BILLS-115hr8rh/xml/BILLS-115hr8rh.xml" doc-type="XML" add-date="2018-06-04T11:17:17.420" publish-date="2018-06-04T11:17:28.070" />
+      </files>
+    </meeting-document>
+    <meeting-document type="CR" add-date="2018-06-06T09:33:13.007" remove-date="" publish-date="2018-06-06T09:34:13.560">
+      <description>H. Rept. 115-711—Report to accompany H. Res. 918</description>
+      <legis-num>H. Rept. 115-711</legis-num>
+      <filename-metadata>
+        <legis-num>H. Rept. 115-711</legis-num>
+        <legis-stage>ih</legis-stage>
+        <doc-type>CR</doc-type>
+      </filename-metadata>
+      <files>
+        <file doc-url="https://www.gpo.gov/fdsys/pkg/CRPT-115hrpt711/pdf/CRPT-115hrpt711.pdf" doc-type="PDF" add-date="2018-06-06T09:33:13.013" publish-date="2018-06-06T09:34:13.560" />
+      </files>
+    </meeting-document>
+    <meeting-document type="SD" add-date="2018-06-06T09:34:01.417" remove-date="" publish-date="2018-06-06T09:34:13.560">
+      <description>H. Res. 918</description>
+      <filename-metadata>
+        <legis-stage>ih</legis-stage>
+        <doc-type>SD</doc-type>
+        <version-num>1</version-num>
+      </filename-metadata>
+      <files>
+        <file doc-url="https://www.gpo.gov/fdsys/pkg/BILLS-115hres918rh/pdf/BILLS-115hres918rh.pdf" doc-type="PDF" add-date="2018-06-06T09:34:01.430" publish-date="2018-06-06T09:34:13.560" />
+        <file doc-url="https://www.gpo.gov/fdsys/pkg/BILLS-115hres918rh/xml/BILLS-115hres918rh.xml" doc-type="XML" add-date="2018-06-06T09:34:01.443" publish-date="2018-06-06T09:34:13.560" />
+      </files>
+    </meeting-document>
+  </meeting-documents>
+</committee-meeting>
