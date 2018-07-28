@@ -25,12 +25,10 @@ class CheckboxCommittee extends Component {
       <div className="CheckboxCommittee">
         <label>
           <input
-                            type="Checkbox"
-                            value={label}
-                            checked={isChecked}
-                            onChange={this.toggleCheckboxCommitteeChange}
-                        />
-
+            type="Checkbox"
+            value={label}
+            checked={isChecked}
+            onChange={this.toggleCheckboxCommitteeChange} />
           {label}
         </label>
       </div>

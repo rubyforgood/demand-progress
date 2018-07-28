@@ -51,11 +51,10 @@ class AgendaManager extends Component {
 
   createCheckbox = item => (
     <Checkbox
-            id={item.committee_code}
-            label={item.committee_name}
-            handleCheckboxCommitteeChange={this.toggleCheckbox}
-            key={item.committee_code}
-        />
+      id={item.committee_code}
+      label={item.committee_name}
+      handleCheckboxCommitteeChange={this.toggleCheckbox}
+      key={item.committee_code} />
   )
 
   createCheckboxes = () => (
@@ -67,13 +66,12 @@ class AgendaManager extends Component {
       <div className="container">
         <div className="row">
           <div className="col-12 col-md-8">
-                <DailyAgenda />
+            <DailyAgenda />
           </div>
           <div className="col-12 col-md-3">
             <div className="location-title font-weight-bold">Filter By Committee</div>
             <form onSubmit={this.handleFormSubmit}>
               {this.createCheckboxes()}
-
               <button className="btn btn-default" type="submit">Filter</button>
             </form>
 
