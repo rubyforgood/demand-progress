@@ -2,19 +2,17 @@ import React, { Component, PropTypes } from 'react';
 
 class CheckboxCommittee extends Component {
   state = {
-    isChecked: true,
+    isChecked: false
   }
 
   toggleCheckboxCommitteeChange = () => {
     const { handleCheckboxCommitteeChange, label } = this.props;
+    const { isChecked } = this.state
 
-    this.setState(({ isChecked }) => (
-      {
-        isChecked: !isChecked,
-      }
-    ));
+    const newState = isChecked ? false : true
+    this.setState({ isChecked: newState })
 
-    handleCheckboxCommitteeChange(label);
+    handleCheckboxCommitteeChange(label, newState);
   }
 
   render() {
@@ -36,9 +34,9 @@ class CheckboxCommittee extends Component {
   }
 }
 
-// CheckboxCommittee.propTypes = {
-//   label: PropTypes.string,
-//   handleCheckboxCommitteeChange: PropTypes.func,
-// };
+CheckboxCommittee.propTypes = {
+  label: PropTypes.string,
+  handleCheckboxCommitteeChange: PropTypes.func
+}
 
 export default CheckboxCommittee;

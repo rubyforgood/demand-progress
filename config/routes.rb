@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
-  # get "events/index"
   resources :organizations
   resources :events, :only => %i[index show]
   root to: "events#index"

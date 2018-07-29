@@ -4,7 +4,8 @@
   "dependencies": {
     "@rails/webpacker": "^3.5.3",
     "babel-preset-react": "^6.24.1",
-    "cypress": "^3.0.1",
+    "cypress": "^3.0.2",
+    "lodash": "^4.17.10",
     "moment": "^2.22.2",
     "moment-timezone": "^0.5.17",
     "prop-types": "^15.6.1",
