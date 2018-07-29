@@ -37,14 +37,14 @@ class AgendaManager extends Component {
   handleFilter = (label, isSelected) => {
     const { selectedCommittees } = this.state
 
-    let currentData = selectedCommittees
+    let currentCommitteeArray = selectedCommittees
     if (isSelected) {
-      currentData = [...currentData, label]
+      currentCommitteeArray = [...currentCommitteeArray, label]
     } else {
-      currentData = remove(currentData, (oldData) => oldData !== label)
+      currentCommitteeArray = remove(currentCommitteeArray, (committeeLabel) => committeeLabel !== label)
     }
 
-    this.setState({ selectedCommittees: currentData })
+    this.setState({ selectedCommittees: currentCommitteeArray })
   }
 
   createCheckbox = item => (
