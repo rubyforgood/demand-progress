@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Checkbox from './checkbox_committee';
 import DailyAgenda from './daily_agenda'
+import { remove } from 'lodash'
 
 /*TODO:
 ` 1) create sample daily_agenda data. [{ daily_agenda: , events []}]
@@ -29,33 +30,29 @@ const committee_info = [
 
 
 class AgendaManager extends Component {
-  componentWillMount = () => {
-    this.selectedCheckboxes = new Set(committee_info.map( item => item.committee_name ));
+  state = {
+    selectedCommittees: []
   }
 
-  toggleCheckbox = label => {
-    if (this.selectedCheckboxes.has(label)) {
-      this.selectedCheckboxes.delete(label);
+  handleFilter = (label, isSelected) => {
+    const { selectedCommittees } = this.state
+
+    let currentCommitteeArray = selectedCommittees
+    if (isSelected) {
+      currentCommitteeArray = [...currentCommitteeArray, label]
     } else {
-      this.selectedCheckboxes.add(label);
+      currentCommitteeArray = remove(currentCommitteeArray, (committeeLabel) => committeeLabel !== label)
     }
-  }
 
-  handleFormSubmit = formSubmitEvent => {
-    formSubmitEvent.preventDefault();
-
-    for (const checkbox of this.selectedCheckboxes) {
-      console.log(checkbox, 'is selected.');
-    }
+    this.setState({ selectedCommittees: currentCommitteeArray })
   }
 
   createCheckbox = item => (
     <Checkbox
-            id={item.committee_code}
-            label={item.committee_name}
-            handleCheckboxCommitteeChange={this.toggleCheckbox}
-            key={item.committee_code}
-        />
+      id={item.committee_code}
+      label={item.committee_name}
+      handleCheckboxCommitteeChange={this.handleFilter}
+      key={item.committee_code} />
   )
 
   createCheckboxes = () => (
@@ -67,16 +64,11 @@ class AgendaManager extends Component {
       <div className="container">
         <div className="row">
           <div className="col-12 col-md-8">
-                <DailyAgenda />
+            <DailyAgenda events={this.props.events} selectedCommittees={this.state.selectedCommittees} />
           </div>
           <div className="col-12 col-md-3">
             <div className="location-title font-weight-bold">Filter By Committee</div>
-            <form onSubmit={this.handleFormSubmit}>
-              {this.createCheckboxes()}
-
-              <button className="btn btn-default" type="submit">Filter</button>
-            </form>
-
+            {this.createCheckboxes()}
           </div>
         </div>
       </div>
