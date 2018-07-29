@@ -46,6 +46,9 @@ GEM
       public_suffix (>= 2.0.2, < 4.0)
     ancestry (3.0.2)
       activerecord (>= 3.2.0)
+    annotate (2.7.2)
+      activerecord (>= 3.2, < 6.0)
+      rake (>= 10.4, < 13.0)
     archive-zip (0.11.0)
       io-like (~> 0.3.0)
     arel (9.0.0)
@@ -297,6 +300,7 @@ PLATFORMS
 
 DEPENDENCIES
   ancestry
+  annotate
   binding_of_caller
   bootsnap (>= 1.1.0)
   bootstrap

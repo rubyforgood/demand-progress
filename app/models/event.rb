@@ -1,4 +1,17 @@
 # frozen_string_literal: true
+# == Schema Information
+#
+# Table name: events
+#
+#  id           :integer          not null, primary key
+#  topic        :text
+#  occurs_at    :datetime
+#  location     :string
+#  created_at   :datetime         not null
+#  updated_at   :datetime         not null
+#  raw_location :string
+#
+
 
 class Event < ApplicationRecord
   def self.this_week_forward
